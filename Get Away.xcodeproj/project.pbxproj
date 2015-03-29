@@ -13,6 +13,12 @@
 		DEBD5A1C1AC88B3C00055B69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEBD5A1B1AC88B3C00055B69 /* Images.xcassets */; };
 		DEBD5A1F1AC88B3C00055B69 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEBD5A1D1AC88B3C00055B69 /* LaunchScreen.xib */; };
 		DEBD5A2B1AC88B3C00055B69 /* Get_AwayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBD5A2A1AC88B3C00055B69 /* Get_AwayTests.swift */; };
+		DEBD5A3D1AC88B5300055B69 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBD5A3C1AC88B5300055B69 /* InterfaceController.swift */; };
+		DEBD5A3F1AC88B5300055B69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEBD5A3E1AC88B5300055B69 /* Images.xcassets */; };
+		DEBD5A431AC88B5300055B69 /* Get Away WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = DEBD5A421AC88B5300055B69 /* Get Away WatchKit App.app */; };
+		DEBD5A4B1AC88B5300055B69 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBD5A491AC88B5300055B69 /* Interface.storyboard */; };
+		DEBD5A4D1AC88B5300055B69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEBD5A4C1AC88B5300055B69 /* Images.xcassets */; };
+		DEBD5A501AC88B5300055B69 /* Get Away WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DEBD5A381AC88B5300055B69 /* Get Away WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +29,35 @@
 			remoteGlobalIDString = DEBD5A0E1AC88B3C00055B69;
 			remoteInfo = "Get Away";
 		};
+		DEBD5A441AC88B5300055B69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEBD5A071AC88B3C00055B69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEBD5A411AC88B5300055B69;
+			remoteInfo = "Get Away WatchKit App";
+		};
+		DEBD5A4E1AC88B5300055B69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEBD5A071AC88B3C00055B69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEBD5A371AC88B5300055B69;
+			remoteInfo = "Get Away WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DEBD5A571AC88B5300055B69 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DEBD5A501AC88B5300055B69 /* Get Away WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DEBD5A0F1AC88B3C00055B69 /* Get Away.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get Away.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +70,14 @@
 		DEBD5A241AC88B3C00055B69 /* Get AwayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Get AwayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEBD5A291AC88B3C00055B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEBD5A2A1AC88B3C00055B69 /* Get_AwayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get_AwayTests.swift; sourceTree = "<group>"; };
+		DEBD5A381AC88B5300055B69 /* Get Away WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Get Away WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEBD5A3B1AC88B5300055B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEBD5A3C1AC88B5300055B69 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DEBD5A3E1AC88B5300055B69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DEBD5A421AC88B5300055B69 /* Get Away WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get Away WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEBD5A481AC88B5300055B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEBD5A4A1AC88B5300055B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DEBD5A4C1AC88B5300055B69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +95,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DEBD5A351AC88B5300055B69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +110,8 @@
 			children = (
 				DEBD5A111AC88B3C00055B69 /* Get Away */,
 				DEBD5A271AC88B3C00055B69 /* Get AwayTests */,
+				DEBD5A391AC88B5300055B69 /* Get Away WatchKit Extension */,
+				DEBD5A461AC88B5300055B69 /* Get Away WatchKit App */,
 				DEBD5A101AC88B3C00055B69 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +121,8 @@
 			children = (
 				DEBD5A0F1AC88B3C00055B69 /* Get Away.app */,
 				DEBD5A241AC88B3C00055B69 /* Get AwayTests.xctest */,
+				DEBD5A381AC88B5300055B69 /* Get Away WatchKit Extension.appex */,
+				DEBD5A421AC88B5300055B69 /* Get Away WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +165,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DEBD5A391AC88B5300055B69 /* Get Away WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DEBD5A3C1AC88B5300055B69 /* InterfaceController.swift */,
+				DEBD5A3E1AC88B5300055B69 /* Images.xcassets */,
+				DEBD5A3A1AC88B5300055B69 /* Supporting Files */,
+			);
+			path = "Get Away WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DEBD5A3A1AC88B5300055B69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEBD5A3B1AC88B5300055B69 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEBD5A461AC88B5300055B69 /* Get Away WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DEBD5A491AC88B5300055B69 /* Interface.storyboard */,
+				DEBD5A4C1AC88B5300055B69 /* Images.xcassets */,
+				DEBD5A471AC88B5300055B69 /* Supporting Files */,
+			);
+			path = "Get Away WatchKit App";
+			sourceTree = "<group>";
+		};
+		DEBD5A471AC88B5300055B69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEBD5A481AC88B5300055B69 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +211,12 @@
 				DEBD5A0B1AC88B3C00055B69 /* Sources */,
 				DEBD5A0C1AC88B3C00055B69 /* Frameworks */,
 				DEBD5A0D1AC88B3C00055B69 /* Resources */,
+				DEBD5A571AC88B5300055B69 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DEBD5A4F1AC88B5300055B69 /* PBXTargetDependency */,
 			);
 			name = "Get Away";
 			productName = "Get Away";
@@ -150,6 +241,39 @@
 			productReference = DEBD5A241AC88B3C00055B69 /* Get AwayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DEBD5A371AC88B5300055B69 /* Get Away WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEBD5A541AC88B5300055B69 /* Build configuration list for PBXNativeTarget "Get Away WatchKit Extension" */;
+			buildPhases = (
+				DEBD5A341AC88B5300055B69 /* Sources */,
+				DEBD5A351AC88B5300055B69 /* Frameworks */,
+				DEBD5A361AC88B5300055B69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEBD5A451AC88B5300055B69 /* PBXTargetDependency */,
+			);
+			name = "Get Away WatchKit Extension";
+			productName = "Get Away WatchKit Extension";
+			productReference = DEBD5A381AC88B5300055B69 /* Get Away WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		DEBD5A411AC88B5300055B69 /* Get Away WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEBD5A511AC88B5300055B69 /* Build configuration list for PBXNativeTarget "Get Away WatchKit App" */;
+			buildPhases = (
+				DEBD5A401AC88B5300055B69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Get Away WatchKit App";
+			productName = "Get Away WatchKit App";
+			productReference = DEBD5A421AC88B5300055B69 /* Get Away WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +289,12 @@
 					DEBD5A231AC88B3C00055B69 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = DEBD5A0E1AC88B3C00055B69;
+					};
+					DEBD5A371AC88B5300055B69 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DEBD5A411AC88B5300055B69 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -183,6 +313,8 @@
 			targets = (
 				DEBD5A0E1AC88B3C00055B69 /* Get Away */,
 				DEBD5A231AC88B3C00055B69 /* Get AwayTests */,
+				DEBD5A371AC88B5300055B69 /* Get Away WatchKit Extension */,
+				DEBD5A411AC88B5300055B69 /* Get Away WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +334,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBD5A361AC88B5300055B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBD5A431AC88B5300055B69 /* Get Away WatchKit App.app in Resources */,
+				DEBD5A3F1AC88B5300055B69 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBD5A401AC88B5300055B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBD5A4B1AC88B5300055B69 /* Interface.storyboard in Resources */,
+				DEBD5A4D1AC88B5300055B69 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +375,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DEBD5A341AC88B5300055B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBD5A3D1AC88B5300055B69 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +390,16 @@
 			isa = PBXTargetDependency;
 			target = DEBD5A0E1AC88B3C00055B69 /* Get Away */;
 			targetProxy = DEBD5A251AC88B3C00055B69 /* PBXContainerItemProxy */;
+		};
+		DEBD5A451AC88B5300055B69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEBD5A411AC88B5300055B69 /* Get Away WatchKit App */;
+			targetProxy = DEBD5A441AC88B5300055B69 /* PBXContainerItemProxy */;
+		};
+		DEBD5A4F1AC88B5300055B69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEBD5A371AC88B5300055B69 /* Get Away WatchKit Extension */;
+			targetProxy = DEBD5A4E1AC88B5300055B69 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +418,14 @@
 				DEBD5A1E1AC88B3C00055B69 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		DEBD5A491AC88B5300055B69 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEBD5A4A1AC88B5300055B69 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,6 +512,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Get Away/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +523,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Get Away/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,6 +564,60 @@
 			};
 			name = Release;
 		};
+		DEBD5A521AC88B5300055B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Get_Away_WatchKit_Extension;
+				INFOPLIST_FILE = "Get Away WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		DEBD5A531AC88B5300055B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Get_Away_WatchKit_Extension;
+				INFOPLIST_FILE = "Get Away WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		DEBD5A551AC88B5300055B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Get Away WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DEBD5A561AC88B5300055B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Get Away WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +643,22 @@
 			buildConfigurations = (
 				DEBD5A321AC88B3C00055B69 /* Debug */,
 				DEBD5A331AC88B3C00055B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEBD5A511AC88B5300055B69 /* Build configuration list for PBXNativeTarget "Get Away WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBD5A521AC88B5300055B69 /* Debug */,
+				DEBD5A531AC88B5300055B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEBD5A541AC88B5300055B69 /* Build configuration list for PBXNativeTarget "Get Away WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBD5A551AC88B5300055B69 /* Debug */,
+				DEBD5A561AC88B5300055B69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
